@@ -1,0 +1,35 @@
+.containerSupCard{
+    min-height: auto;
+    height: 300px;
+    width: 190px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 15px;
+    margin: 7px;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.containerSupCard p{
+    font-size: 18px;
+    text-align: left;
+}
+.containerSupCard h2{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .containerSupCard{
+        width: 80%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .containerSupCard{
+        text-align: justify;
+    }
+    
+}

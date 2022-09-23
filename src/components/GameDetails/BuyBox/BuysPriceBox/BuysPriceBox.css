@@ -1,0 +1,54 @@
+.buys_fullpricebox{
+    display: flex;
+    background-color: #D9D9D9;
+    width: auto;
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.buys_discount_pricebox{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.buys_discount_number_text{
+    display: flex;
+    justify-content: center;
+    height: 66%;
+    width: 100%;
+    font-size: 2.5em;
+}
+
+.buys_discount_off_text_box{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    text-overflow: none;
+    white-space: nowrap;
+}
+
+.buys_discount_off_number{
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 768px) {
+    .buys_fullpricebox{
+        font-size: 7vw;
+    }
+    .buys_discount_number_text{
+        font-size: 7vw;
+    }
+}

@@ -1,0 +1,22 @@
+.containerSR{
+    display: grid;
+    width: inherit;
+    grid-template-columns: 49% 1% 49%; 
+    grid-template-rows: auto;
+}
+
+.vertical_line {
+    border-right: 2px solid black;
+    height: auto;
+}
+
+.SRInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.tabulator{
+    margin-left: 30px;
+}

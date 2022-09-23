@@ -1,0 +1,44 @@
+.full_pricebox
+{
+    color: white;
+    font-size: 30px;
+}
+
+.discount_pricebox
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "discount_off_text"
+    "discount_number_text";
+}
+
+.discount_off_text
+{
+    grid-area: discount_off_text;
+    background-color: #4C9B4F;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.discount_number_text
+{
+    grid-area: discount_number_text;
+    color: white;
+    font-size: 25px
+}
+
+@media screen and (max-width:400px) {
+
+    .full_pricebox{
+        font-size: 6.4vw;
+    }
+    .discount_off_text{
+        font-size: 6.1vw;
+    }
+    .discount_number_text{
+        font-size: 5.6vw;
+    }
+}

@@ -1,0 +1,6 @@
+.container_LOF
+{
+    display: inline-table, flex;
+    flex-direction: column;
+    width: inherit;
+}

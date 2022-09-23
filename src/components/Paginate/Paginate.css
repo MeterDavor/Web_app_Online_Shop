@@ -1,0 +1,37 @@
+.container_pagination{
+    list-style: none;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container_pagination .page-num{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    background-color: black;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.container_pagination .page-num:hover{
+    cursor:pointer;
+    background-color: #444444;
+}
+
+.container_pagination .page_num_active{
+    background-color: white;
+    color: black;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: black;
+}

@@ -1,0 +1,97 @@
+.containerAP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_h1
+{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: auto;
+}
+
+.not_a_real
+{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    background-color: red;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.digital_market
+{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.containerBuyGames
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 700px;
+    color: white;
+    text-align: center;
+}
+
+.buyGamesInst
+{
+    font-size: 30px;
+}
+
+.paragraf_with
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .containerAP{
+        width: 100%;
+    }
+
+    .not_a_real{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .digital_market{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .containerBuyGames{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

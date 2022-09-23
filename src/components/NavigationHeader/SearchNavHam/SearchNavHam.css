@@ -1,0 +1,15 @@
+.search_nav_ham
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Helvetica';
+}
+.search_nav_ham:hover
+{
+    background-color: #575757;
+}

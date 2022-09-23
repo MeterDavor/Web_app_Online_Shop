@@ -1,0 +1,30 @@
+.filter_template{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color:white;
+    justify-content: flex-start;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.filter_tick_box{
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    outline-width: 2px;
+    outline-color: black;
+    outline-style: solid;
+    background-color: #adadad;
+    color: black;
+    font-weight: bold;
+}
+
+.filter_template.filter_tick_box:hover{
+    background-color: #d3d3d3;
+}
+
+.filter_tick_box:active{
+    background-color: #8a8a8a;
+}

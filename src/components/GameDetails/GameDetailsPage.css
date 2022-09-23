@@ -1,0 +1,77 @@
+.containerGDP{
+    display: flex;
+    flex-direction: column;
+    white-space: pre-line;
+    width: 700px;
+    align-content: center;
+    justify-content: center;
+}
+
+.listOfScreenshots{
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.screenshot_images{
+    height: 120px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.screenshot_images_last{
+    height: 120px;
+    margin-top: 10px;
+}
+
+.bigPicture{
+    width: inherit;
+    height: 400px;
+}
+
+.systemReqBox{
+    margin-bottom: 20px;
+}
+
+.BuyBoxInTheMiddle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleText{
+    display: inline-table;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    cursor: default;
+    text-align: center;
+}
+
+.aboutTheGameParagraf
+{
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .containerGDP{
+        width: 100%;
+    }
+
+    .bigPicture{
+        width: inherit;
+        height: 57.14vw;
+    }
+
+    .aboutTheGameParagraf
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .titleText{
+        font-size: 6vw;
+        -webkit-text-stroke-width: 1px;
+    }
+}
